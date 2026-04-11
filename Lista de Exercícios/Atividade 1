@@ -1,0 +1,11 @@
+Leia um número inteiro e informe se ele é positivo ou negativo.
+#Numero positivo ou negativo. 
+
+numero = float(input("Digite um numero"))
+
+if numero >0:
+  print("o numero e positivo")
+elif numero <0:
+  print("o numero e negativo")
+else:
+  print("o numero e zero")
