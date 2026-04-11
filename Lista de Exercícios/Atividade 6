@@ -1,0 +1,12 @@
+ Leia dois números e exiba qual é o maior.
+#Numero maior
+
+numero1 = int(input("digite o primeiro numero"))
+numero2 = int(input("digite o segundo numero"))
+
+if  numero1 > numero2:
+  print ("numero1 e maior")
+elif  numero2 > numero1:
+  print ("numero2 e maior")
+else:
+  print ("os dois numeros sao iguais")
