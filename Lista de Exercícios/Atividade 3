@@ -1,0 +1,6 @@
+ Leia um valor e: Mostre o valor digitado; Mostre o tipo da variável usando type()
+#Mostra o valor Digitado usando type
+
+valor = input("digite um valor:")
+print("voce digitou:", valor)
+print("o tipo de variavel e:", type(valor))
