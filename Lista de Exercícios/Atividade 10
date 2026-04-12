@@ -1,0 +1,10 @@
+Leia um número e informe: “Dentro do intervalo” se estiver entre 0 e 10; “Fora do intervalo”
+caso contrário.
+#Verifivar se o numero esta dentro do intervalo
+
+numero = int(input("digite um numero"))
+
+if 0 <= numero < 10:
+  print("dentro do intervalo")
+else:
+  print("fora do intervalo")
