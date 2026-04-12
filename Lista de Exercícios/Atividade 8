@@ -1,0 +1,10 @@
+ Leia um número e: Se for positivo, mostre a raiz aproximada (use **0.5); Caso contrário,
+informe “Número inválido"
+#Mostra a raiz de um numero usando (**0.5)
+
+numero = float(input("digite um nemero"))
+if numero > 0:
+ raiz = numero ** 0.5
+ print("a raiz aproximada e:", raiz)
+else:
+  print("numero invalido")
