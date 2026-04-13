@@ -1,0 +1,11 @@
+ Leia um valor e: Converta para inteiro; Se for múltiplo de 3 → “Múltiplo de 3”; Senão → “Não é
+múltiplo”.
+#Multiplo de 3
+
+
+valor = int(input("digite um valor: "))
+
+if valor %3 == 0:
+  print("multiplo de 3")
+else:
+  print("nao e multiplo de 3")
