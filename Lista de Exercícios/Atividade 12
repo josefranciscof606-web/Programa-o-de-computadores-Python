@@ -1,0 +1,16 @@
+Leia dois números e: Mostre a soma; Mostre qual é maior ou se são iguais.
+#A soma de dois numeros e mostra se são iguais ou maior
+
+num1 = int(input("digite o primeiro numero: "))
+num2 = int(input("digite o segundo numero: "))
+
+soma = num1 + num2
+print("a soma dos dois numero:", soma)
+
+if num1 > num2:
+ print("num1 e maior")
+elif num1 < num2:
+ print("num1 e menor")
+else:
+ print("os dois sao iguais")
+ 
