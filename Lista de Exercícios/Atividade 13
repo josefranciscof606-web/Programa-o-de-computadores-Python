@@ -1,7 +1,7 @@
  Leia um número e: Se for maior que 100 → mostre metade; Senão → mostre o dobro.
-#
+#Maior que 100 / Menor que 100
 
-numero = int(input("digite um numero: "))
+numero = float(input("digite um numero: "))
 
 if numero > 100:
  print("metade do valor e:", numero/2)
