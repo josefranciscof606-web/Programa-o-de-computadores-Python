@@ -1,0 +1,13 @@
+ Leia um valor e: Mostre o tipo; Se for numérico (após conversão) → mostre o quadrado.
+#Tipo do valor
+
+valor = input("digite um valor: ")
+print("tipo do valor:", type("valor"))
+
+try:
+  numero = float(valor)
+  quadrado = numero **2
+  print("o quadrado e:", quadrado)
+except:
+  print("nao e um valor numerico")
+
