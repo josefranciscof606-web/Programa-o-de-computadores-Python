@@ -2,5 +2,5 @@ Leia um número como texto (input) e: Converta para inteiro; Mostre o triplo.
 #Convrete para inteir e mostra o triplo.
 
 numero = int(input("digite um numero"))
-  triplo = numero *3
-    print("resultado e:",triplo)
+triplo = numero *3
+print("resultado e:",triplo)
