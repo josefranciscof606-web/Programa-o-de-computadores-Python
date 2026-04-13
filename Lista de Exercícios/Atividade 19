@@ -1,0 +1,13 @@
+ Leia dois números e: Verifique se são iguais ou diferentes. Sendo diferentes mostre a diferença
+entre eles
+# LÊ dois numeros e mostra a diferença entre eles
+
+num1 = int(input("digite o primeiro numero"))
+num2 = int(input("digite o segundo numero"))
+
+if num1 == num2:
+  print("são iguais")
+else: 
+  diferença = abs ( num1 - num2 )
+  print("os numeros sao diferentes")
+  print("a diferença entres eles e:", diferença)
